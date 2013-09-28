@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CIFC97IFC67", "..\CIFC97IFC67mobile\CIFC97IFC67.vcproj", "{58397490-7F62-42C5-AC7E-58C5F8BF43F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UEwaspmobile", "UEwaspmobile.vcproj", "{3FFFB94C-268F-4315-A60B-737AC4D7B9C8}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ..\\CIFC97IFC67mobile\\CIFC97IFC67.vcproj
+		SccProjectName0 = \u0022$/CIFC97IFC67mobile\u0022,\u0020MULAAAAA
+		SccLocalPath0 = ..\\CIFC97IFC67mobile
+		SccProjectUniqueName1 = UEwaspmobile.vcproj
+		SccLocalPath1 = .
+		SccProjectName2 = \u0022$/UEwaspmobile\u0022,\u0020NHCBAAAA
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58397490-7F62-42C5-AC7E-58C5F8BF43F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58397490-7F62-42C5-AC7E-58C5F8BF43F3}.Debug|Win32.Build.0 = Debug|Win32
+		{58397490-7F62-42C5-AC7E-58C5F8BF43F3}.Release|Win32.ActiveCfg = Release|Win32
+		{58397490-7F62-42C5-AC7E-58C5F8BF43F3}.Release|Win32.Build.0 = Release|Win32
+		{3FFFB94C-268F-4315-A60B-737AC4D7B9C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FFFB94C-268F-4315-A60B-737AC4D7B9C8}.Debug|Win32.Build.0 = Debug|Win32
+		{3FFFB94C-268F-4315-A60B-737AC4D7B9C8}.Release|Win32.ActiveCfg = Release|Win32
+		{3FFFB94C-268F-4315-A60B-737AC4D7B9C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

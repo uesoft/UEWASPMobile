@@ -1,0 +1,858 @@
+# Microsoft eMbedded Visual Tools Project File - Name="UEwaspmobile" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE ARMV4T) Dynamic-Link Library" 0xa402
+# TARGTYPE "Win32 (WCE MIPSII_FP) Dynamic-Link Library" 0xa202
+# TARGTYPE "Win32 (WCE emulator) Dynamic-Link Library" 0xa602
+# TARGTYPE "Win32 (WCE ARMV4) Dynamic-Link Library" 0xa302
+# TARGTYPE "Win32 (WCE MIPS16) Dynamic-Link Library" 0x8902
+# TARGTYPE "Win32 (WCE ARMV4I) Dynamic-Link Library" 0xa502
+# TARGTYPE "Win32 (WCE MIPSII) Dynamic-Link Library" 0xa102
+
+CFG=UEwaspmobile - Win32 (WCE MIPSII_FP) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "UEwaspmobile.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "UEwaspmobile.vcn" CFG="UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPSII_FP) Release" (based on "Win32 (WCE MIPSII_FP) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug" (based on "Win32 (WCE MIPSII_FP) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPSII) Release" (based on "Win32 (WCE MIPSII) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPSII) Debug" (based on "Win32 (WCE MIPSII) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE emulator) Release" (based on "Win32 (WCE emulator) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE emulator) Debug" (based on "Win32 (WCE emulator) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4I) Release" (based on "Win32 (WCE ARMV4I) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4I) Debug" (based on "Win32 (WCE ARMV4I) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4) Release" (based on "Win32 (WCE ARMV4) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4) Debug" (based on "Win32 (WCE ARMV4) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPS16) Release" (based on "Win32 (WCE MIPS16) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE MIPS16) Debug" (based on "Win32 (WCE MIPS16) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4T) Release" (based on "Win32 (WCE ARMV4T) Dynamic-Link Library")
+!MESSAGE "UEwaspmobile - Win32 (WCE ARMV4T) Debug" (based on "Win32 (WCE ARMV4T) Dynamic-Link Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""$/uewaspmobile", YECBAAAA"
+# PROP Scc_LocalPath "."
+# PROP ATL_Project 2
+
+!IF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSII_FPRel"
+# PROP BASE Intermediate_Dir "MIPSII_FPRel"
+# PROP BASE CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSII_FPRel"
+# PROP Intermediate_Dir "MIPSII_FPRel"
+# PROP CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE- /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE- /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSII_FPDbg"
+# PROP BASE Intermediate_Dir "MIPSII_FPDbg"
+# PROP BASE CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSII_FPDbg"
+# PROP Intermediate_Dir "MIPSII_FPDbg"
+# PROP CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE- /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE- /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSIIRel"
+# PROP BASE Intermediate_Dir "MIPSIIRel"
+# PROP BASE CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSIIRel"
+# PROP Intermediate_Dir "MIPSIIRel"
+# PROP CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSIIDbg"
+# PROP BASE Intermediate_Dir "MIPSIIDbg"
+# PROP BASE CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSIIDbg"
+# PROP Intermediate_Dir "MIPSIIDbg"
+# PROP CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips2 /QMFPE /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "emulatorRel"
+# PROP BASE Intermediate_Dir "emulatorRel"
+# PROP BASE CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "emulatorRel"
+# PROP Intermediate_Dir "emulatorRel"
+# PROP CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /Gs8192 /GF /O2 /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /Gs8192 /GF /O2 /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc) /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc) /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "emulatorDbg"
+# PROP BASE Intermediate_Dir "emulatorDbg"
+# PROP BASE CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "emulatorDbg"
+# PROP Intermediate_Dir "emulatorDbg"
+# PROP CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /Gs8192 /GF /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /Gs8192 /GF /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc) /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc) /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4IRel"
+# PROP BASE Intermediate_Dir "ARMV4IRel"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4IRel"
+# PROP Intermediate_Dir "ARMV4IRel"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4IDbg"
+# PROP BASE Intermediate_Dir "ARMV4IDbg"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4IDbg"
+# PROP Intermediate_Dir "ARMV4IDbg"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4Rel"
+# PROP BASE Intermediate_Dir "ARMV4Rel"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4Rel"
+# PROP Intermediate_Dir "ARMV4Rel"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4Dbg"
+# PROP BASE Intermediate_Dir "ARMV4Dbg"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4Dbg"
+# PROP Intermediate_Dir "ARMV4Dbg"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPS16Rel"
+# PROP BASE Intermediate_Dir "MIPS16Rel"
+# PROP BASE CPU_ID "{D6519013-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPS16Rel"
+# PROP Intermediate_Dir "MIPS16Rel"
+# PROP CPU_ID "{D6519013-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "MIPS16SUPPORT" /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPS16" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "MIPS16SUPPORT" /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPS16" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPS16" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_MIPS16_" /D "MIPS16SUPPORT" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips16 /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPS16" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_MIPS16_" /D "MIPS16SUPPORT" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips16 /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS16 /ALIGN:4096
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS16 /ALIGN:4096
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPS16Dbg"
+# PROP BASE Intermediate_Dir "MIPS16Dbg"
+# PROP BASE CPU_ID "{D6519013-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPS16Dbg"
+# PROP Intermediate_Dir "MIPS16Dbg"
+# PROP CPU_ID "{D6519013-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "MIPS16SUPPORT" /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPS16" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "MIPS16SUPPORT" /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPS16" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPS16" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_MIPS16_" /D "MIPS16SUPPORT" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips16 /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPS16" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_MIPS16_" /D "MIPS16SUPPORT" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QMmips16 /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS16 /ALIGN:4096
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:MIPS16 /ALIGN:4096
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4TRel"
+# PROP BASE Intermediate_Dir "ARMV4TRel"
+# PROP BASE CPU_ID "{F52316A9-3B7C-4FE7-A67F-68350B41240D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4TRel"
+# PROP Intermediate_Dir "ARMV4TRel"
+# PROP CPU_ID "{F52316A9-3B7C-4FE7-A67F-68350B41240D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4T" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4T" /r
+CPP=clthumb.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "THUMB" /D "_THUMB_" /D "ARMV4T" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "THUMB" /D "_THUMB_" /D "ARMV4T" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /nodefaultlib:"$(CENoDefaultLib)" /out:"uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4TDbg"
+# PROP BASE Intermediate_Dir "ARMV4TDbg"
+# PROP BASE CPU_ID "{F52316A9-3B7C-4FE7-A67F-68350B41240D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4TDbg"
+# PROP Intermediate_Dir "ARMV4TDbg"
+# PROP CPU_ID "{F52316A9-3B7C-4FE7-A67F-68350B41240D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4T" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4T" /r
+CPP=clthumb.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "THUMB" /D "_THUMB_" /D "ARMV4T" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "THUMB" /D "_THUMB_" /D "ARMV4T" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "UEWASP_EXPORTS" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00100000" /stack:0x10000,0x1000 /entry:"_DllMainCRTStartup" /dll /debug /nodefaultlib:"$(CENoDefaultLib)" /out:"ARMV4TDbg/uewasp.dll" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ENDIF 
+
+# Begin Target
+
+# Name "UEwaspmobile - Win32 (WCE MIPSII_FP) Release"
+# Name "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+# Name "UEwaspmobile - Win32 (WCE MIPSII) Release"
+# Name "UEwaspmobile - Win32 (WCE MIPSII) Debug"
+# Name "UEwaspmobile - Win32 (WCE emulator) Release"
+# Name "UEwaspmobile - Win32 (WCE emulator) Debug"
+# Name "UEwaspmobile - Win32 (WCE ARMV4I) Release"
+# Name "UEwaspmobile - Win32 (WCE ARMV4I) Debug"
+# Name "UEwaspmobile - Win32 (WCE ARMV4) Release"
+# Name "UEwaspmobile - Win32 (WCE ARMV4) Debug"
+# Name "UEwaspmobile - Win32 (WCE MIPS16) Release"
+# Name "UEwaspmobile - Win32 (WCE MIPS16) Debug"
+# Name "UEwaspmobile - Win32 (WCE ARMV4T) Release"
+# Name "UEwaspmobile - Win32 (WCE ARMV4T) Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\uewasp.cpp
+
+!IF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Release"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Debug"
+
+DEP_CPP_UEWAS=\
+	".\uewasp.h"\
+	".\uewasp67.h"\
+	".\uewasp97.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\uewasp67.cpp
+
+!IF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Release"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Debug"
+
+DEP_CPP_UEWASP=\
+	".\uewasp67.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\uewasp97.cpp
+
+!IF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE emulator) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE MIPS16) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Release"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ELSEIF  "$(CFG)" == "UEwaspmobile - Win32 (WCE ARMV4T) Debug"
+
+DEP_CPP_UEWASP9=\
+	".\uewasp97.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\uewasp.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\uewasp67.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\uewasp97.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\uewasp.def
+# End Source File
+# End Group
+# End Target
+# End Project

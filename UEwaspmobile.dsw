@@ -1,0 +1,53 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CIFC97IFC67"=..\CIFC97IFC67mobile\CIFC97IFC67.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/CIFC97IFC67mobile", MULAAAAA
+    ..\CIFC97IFC67mobile
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UEwaspmobile"=.\UEwaspmobile.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/UEwaspmobile", NHCBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/UEwaspmobile", NHCBAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

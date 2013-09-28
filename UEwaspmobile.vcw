@@ -1,0 +1,53 @@
+Microsoft eMbedded Visual Tools Workspace File, Format Version 4.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CIFC97IFC67"=..\CIFC97IFC67MOBILE\CIFC97IFC67.VCP - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/CIFC97IFC67mobile", IEABAAAA
+    ..\cifc97ifc67mobile
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UEwaspmobile"=.\UEwaspmobile.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/UEwaspmobile", YECBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/UEwaspMobile", YECBAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
